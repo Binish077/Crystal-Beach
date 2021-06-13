@@ -1,0 +1,167 @@
+/*pretty_water.jpg is an image captured by Ingrid Salmanca*/
+body{
+  font-family: "Nunito", sans-serif;
+}
+
+/*The waves image on every page*/
+#header{
+    background: url("pretty_water.jpg");
+    height: 20vh;
+    width: 100vw;
+    
+}
+
+/*Credits for the turtle image and header at the bottom
+of each page*/
+#credits{
+  background: darkblue;
+  color: goldenrod;
+}
+
+/*Flex display for the eco-friendly activities*/
+#activities{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background: darkblue;
+  color: white;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/*For my favorite beaches images*/
+.beach{
+  width: 700px;
+  height: 500px;
+  text-align: center;
+}
+
+/*Welcome card on Website.html*/
+#present{
+  height: 200px;
+  width: 97vw;
+  color: goldenrod;
+  text-align:center;
+  border: 5px solid goldenrod;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top:30px;
+  background: darkblue;
+  margin-right: 120px;
+}
+
+/*for the turtle image at the bottom of every page*/
+.ending{
+  width: 100vw;
+}
+
+/*For the 'Summer is Here!' header*/
+h1{
+    font-size: xx-large;
+    color:teal;
+    text-shadow: rgb(71, 71, 71);
+    text-align: center;
+    font-size:xx-large;
+}
+
+/*For the navigation bar under the header*/
+.nav {
+    background-color: teal;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-evenly;
+    width: 100vw;
+  }
+  
+  .nav a {
+    color: gold;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .nav a:hover {
+    color: white;
+  }
+  
+  .nav a.active {
+    color: white;
+  }
+
+  /*Flex display Website.html*/
+#welcome{
+  background:teal;
+  height:500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+}
+
+.welcome-item{
+  border: 10px solid white;
+  padding: 70px 70px 70px 70px;
+  background: white;
+  color:teal;
+  text-align: center;
+  width: 30vw;
+  height: 200px;
+}
+
+/*Sustainable tips on tips.html*/
+#sustainable{
+  background:darkblue;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  height: 550px;
+  width: 100vw;
+}
+
+/*For each bullet point on tips.html*/
+.sub-item{
+  color: white;
+  font-size: large;
+  padding-right: 50px;
+  padding-left: 10px;
+}
+
+/*Formatting for other page titles*/
+.sub-page-title{
+  color: goldenrod;
+  font-size: xx-large;
+  text-align: center;
+}
+
+/*Flex display for activities.html*/
+#activities{
+  background: darkblue;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: white;
+  width: 100vw;
+  margin-right: 20px;
+}
+
+/*Items in flex display on activties.html*/
+.a1{
+  background: white;
+  color: darkblue;
+  border: 5px double gold;
+  margin-right: 10vw;
+  padding-left: 2vw;
+  padding-bottom: 20px;
+  margin-left:5vw;
+}
+
+/*For the images in the flex display on activities.html*/
+.back{
+  width: 400px;
+  align-content: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
